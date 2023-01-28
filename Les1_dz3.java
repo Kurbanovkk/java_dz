@@ -8,12 +8,12 @@ public class Les1_dz3 {
         Scanner scann = new Scanner(System.in);
         while (flag != true) {
             System.out.println("введите первое число:");
-            int value1 = scann.nextInt();
+            Double value1 = scann.nextDouble();
             System.out.println("введите второе число:");
-            int value2 = scann.nextInt();
+            Double value2 = scann.nextDouble();
             System.out.println("Выберите действие: '+', '-', '*', '/' ");
             char ch = scann.next().charAt(0);
-            int res = 0;
+            Double res = 0.0;
             /*
              * switch (char_) {
              * case '+':
